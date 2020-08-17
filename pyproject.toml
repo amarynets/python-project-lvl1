@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "amarynets_brain_games"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Andrii Marynets <andrii.marynets@gmail.com>"]
 packages = [
