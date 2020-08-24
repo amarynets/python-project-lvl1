@@ -1,12 +1,12 @@
 import random
-from operator import sub, mul
+from operator import add, sub, mul
 
 WELCOME_TEXT = 'What is the result of the expression?'
 
 
 def generate_question():
     operations = {
-        '+': lambda x, y: x + y,
+        '+': add,
         '-': sub,
         '*': mul,
     }
