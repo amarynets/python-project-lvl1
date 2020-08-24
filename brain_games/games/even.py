@@ -1,6 +1,7 @@
 import random
 
 WELCOME_TEXT = 'Answer "yes" if number even otherwise answer "no".'
+ANSWER_TYPE = 'str'
 
 
 def generate_question():

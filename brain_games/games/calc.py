@@ -2,6 +2,7 @@ import random
 from operator import add, sub, mul
 
 WELCOME_TEXT = 'What is the result of the expression?'
+ANSWER_TYPE = 'real'
 
 
 def generate_question():
@@ -14,4 +15,4 @@ def generate_question():
     b = random.randint(-10, 10)
     op, operation = random.choice(list(operations.items()))
 
-    return f'{a} {op} {b}', str(operation(a, b))
+    return f'{a} {op} {b}', operation(a, b)
