@@ -6,6 +6,6 @@ ANSWER_TYPE = 'int'
 
 
 def generate_question():
-    a = random.randint(0, 50)
-    b = random.randint(0, 50)
+    a = random.randint(1, 50)
+    b = random.randint(1, 50)
     return f'{a} {b}', math.gcd(a, b)
