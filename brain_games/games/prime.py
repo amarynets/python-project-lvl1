@@ -5,16 +5,12 @@ INPUT_TYPE = 'str'
 
 
 def is_prime(number):
-    if number > 1:
-        for i in range(2, number // 2):
-            if number % 2 == 0:
-                return False
-            elif number % 3 == 0:
-                return False
-            elif number % 5 == 0:
-                return False
-        return True
-    return False
+    if number < 2 or not number % 2:
+        return False
+    for i in range(3, number // 2, 2):
+        if not number % i:
+            return False
+    return True
 
 
 def generate_question():
