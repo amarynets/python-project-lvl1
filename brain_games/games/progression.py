@@ -1,11 +1,12 @@
 import random
+from brain_games import engine
 
 WELCOME_TEXT = 'What number is missing in the progression?'
-ANSWER_TYPE = 'int'
+INPUT_TYPE = 'int'
 
 
 def generate_question():
-    start = random.randint(0, 50)
+    start = engine.generate_random_number()
     step = random.randint(1, 10)
     missed_item_index = random.randint(0, 9)
     progression = list(range(start, start + step * 10, step))

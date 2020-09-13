@@ -1,11 +1,14 @@
-import random
 import math
+from brain_games import engine
+
 
 WELCOME_TEXT = 'Find the greatest common divisor of given numbers.'
-ANSWER_TYPE = 'int'
+INPUT_TYPE = 'int'
 
 
 def generate_question():
-    a = random.randint(1, 50)
-    b = random.randint(1, 50)
-    return f'{a} {b}', math.gcd(a, b)
+    a = engine.generate_random_number()
+    b = engine.generate_random_number()
+    question = f'{a} {b}'
+    answer = math.gcd(a, b)
+    return question, answer

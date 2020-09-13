@@ -1,7 +1,7 @@
-import random
+from brain_games import engine
 
 WELCOME_TEXT = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-ANSWER_TYPE = 'str'
+INPUT_TYPE = 'str'
 
 
 def is_prime(number):
@@ -18,5 +18,6 @@ def is_prime(number):
 
 
 def generate_question():
-    num = random.randint(1, 20)
-    return num, 'yes' if is_prime(num) else 'no'
+    question = engine.generate_random_number()
+    answer = 'yes' if is_prime(question) else 'no'
+    return question, answer

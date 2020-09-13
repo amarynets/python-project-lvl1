@@ -1,5 +1,5 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/782f577068f4793a3f2f/maintainability)](https://codeclimate.com/github/amarynets/python-project-lvl1/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/782f577068f4793a3f2f/test_coverage)](https://codeclimate.com/github/amarynets/python-project-lvl1/test_coverage)
 [![Lint workflow](https://github.com/amarynets/python-project-lvl1/workflows/CI/badge.svg)](https://github.com/amarynets/python-project-lvl1/actions?query=workflow%3ACI)
 Brain-even
 [![asciicast](https://asciinema.org/a/7xMypOn3pNtnt27xhFEjNHfsF.svg)](https://asciinema.org/a/7xMypOn3pNtnt27xhFEjNHfsF)

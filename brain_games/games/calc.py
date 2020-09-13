@@ -1,8 +1,9 @@
 import random
 from operator import add, sub, mul
+from brain_games import engine
 
 WELCOME_TEXT = 'What is the result of the expression?'
-ANSWER_TYPE = 'real'
+INPUT_TYPE = 'real'
 
 
 def generate_question():
@@ -11,8 +12,8 @@ def generate_question():
         '-': sub,
         '*': mul,
     }
-    a = random.randint(-10, 10)
-    b = random.randint(-10, 10)
+    a = engine.generate_random_number()
+    b = engine.generate_random_number()
     op, operation = random.choice(list(operations.items()))
 
     return f'{a} {op} {b}', operation(a, b)
